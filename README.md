@@ -6,7 +6,7 @@ I don't want to use single precision numbers because the regression results are 
 Maybe AVX-512 instructions could do better but they are not supported by this not-so-old laptop... (I guess they are targeting server CPUs)
 
 Output forom Benchmark.Net:
-
+```
 // * Summary *
 
 BenchmarkDotNet v0.14.0, Windows 11 (10.0.22631.4317/23H2/2023Update/SunValley3)
@@ -22,3 +22,4 @@ BenchmarkDotNet v0.14.0, Windows 11 (10.0.22631.4317/23H2/2023Update/SunValley3)
 | NonSimd_original_Version | 1000   | 6.151 us | 0.0805 us | 0.0753 us | 6.127 us |         - |
 | SimdVersion              | 100000 | 5.330 us | 0.0336 us | 0.0314 us | 5.342 us |         - |
 | NonSimd_original_Version | 100000 | 6.065 us | 0.0484 us | 0.0429 us | 6.070 us |         - |
+```
